@@ -120,11 +120,6 @@ p {
   font-size: 1.6rem;
 }
 
-/* .authPage .container .header img {
-  width: 300px;
-  height: 120px;
-  margin: 0 auto;
-} */
 .authPage .container .header {
   text-align: center;
   margin-bottom: 20px;
@@ -214,7 +209,7 @@ p {
   height: 550px;
 }
 
-@media (max-width: 1520px) {
+@media (max-width: 1320px) {
   .authPage {
     min-width: 100%;
   }
@@ -381,7 +376,7 @@ p {
   -moz-box-shadow: 2px 10px 10px -1px rgba(0, 0, 0, 0.17);
 }
 
-@media (max-width: 1520px) {
+@media (max-width: 1320px) {
 
   .heroSection .container,
   .heroSection .details {
@@ -1328,7 +1323,7 @@ p {
   display: flex;
 }
 
-@media (max-width: 1520px) {
+@media (max-width: 1320px) {
   .myJobs .container {
     min-width: 100%;
   }
@@ -1436,7 +1431,7 @@ nav .hamburger {
   display: none;
 }
 
-@media (max-width: 1520px) {
+@media (max-width: 1320px) {
   nav .container {
     min-width: 100%;
   }
@@ -1482,8 +1477,8 @@ nav .hamburger {
 
   nav .show-menu {
     position: fixed;
-    top: 120px;
-    background: #f1f3f6;
+    top: 72px;
+    background: #36464d;
     transition: all 0.3s;
     left: 0;
     width: 400px;
