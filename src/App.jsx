@@ -45,7 +45,7 @@ function App() {
     const fetchUser = async () => {
       try {
         const response = await axios.get(
-          "https://devjobs-backend-e11d.onrender.com//api/v1/user/getuser",
+          "https://devjobs-backend-e11d.onrender.com/api/v1/user/getuser",
           { withCredentials: true }
         );
         setUser(response.data.user);
