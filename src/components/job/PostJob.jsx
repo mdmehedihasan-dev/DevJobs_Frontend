@@ -107,13 +107,16 @@ const PostJob = () => {
                   Artificial Intelligence
                 </option>
                 <option value="Video Animation">Video Animation</option>
-                <option value="MEAN Stack Development">
-                  MEAN STACK Development
+                <option value=" PHP Development">
+                  PHP Development
                 </option>
-                <option value="MEVN Stack Development">
-                  MEVN STACK Development
+                <option value="Backend Development">
+                  Backend Development
                 </option>
                 <option value="Data Entry Operator">Data Entry Operator</option>
+                <option value=" Graphic Designer">
+                  Graphic Designer
+                </option>
               </select>
             </div>
             <div className="wrapper">
