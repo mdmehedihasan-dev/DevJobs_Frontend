@@ -21,7 +21,7 @@ const Register = () => {
     try {
       const { data } = await axios.post(
         "https://devjobs-backend-e11d.onrender.com/api/v1/user/register",
-        { email, name, phone, password, role, isAuthorized },
+        { email, name, phone, password, role },
         {
           headers: {
             "Content-Type": "application/json",
