@@ -569,7 +569,7 @@ p {
   color: gray;
 }
 
-@media (max-width: 1520px) {
+@media (max-width: 1320px) {
   .categories {
     min-width: 100%;
     padding: 50px 20px;
@@ -666,7 +666,7 @@ p {
   margin-top: 10px;
 }
 
-@media (max-width: 1520px) {
+@media (max-width: 1320px) {
   .companies .container {
     min-width: 100%;
     padding: 0 20px;
@@ -761,7 +761,7 @@ p {
   text-align: center;
 }
 
-@media (max-width: 1520px) {
+@media (max-width: 1320px) {
   .jobs .container {
     min-width: 100%;
   }
@@ -825,7 +825,7 @@ p {
   width: fit-content;
 }
 
-@media (max-width: 1520px) {
+@media (max-width: 1320px) {
   .jobDetail .container {
     min-width: 100%;
   }
@@ -892,7 +892,7 @@ p {
   cursor: pointer;
 }
 
-@media (max-width: 1520px) {
+@media (max-width: 1320px) {
   .application .container {
     min-width: 100%;
   }
@@ -974,7 +974,7 @@ p {
   font-weight: 500;
 }
 
-@media (max-width: 1520px) {
+@media (max-width: 1320px) {
   .my_applications .container {
     min-width: 100%;
   }
@@ -1119,7 +1119,7 @@ p {
   letter-spacing: 2px;
 }
 
-@media (max-width: 1520px) {
+@media (max-width: 1320px) {
   .job_post .container {
     min-width: 100%;
   }
