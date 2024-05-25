@@ -45,7 +45,7 @@ const Login = () => {
   };
 
   if (isAuthorized) {
-    navigate("/login");
+    navigate("/");
   }
 
   return (
