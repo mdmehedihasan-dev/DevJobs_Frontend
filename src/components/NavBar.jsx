@@ -78,7 +78,7 @@ const NavBar = () => {
 
           <button onClick={handleLogout}>LOGOUT</button>
         </div>
-        <div className="block cursor-pointer icon sm:hidden">
+        <div className="block text-white font-xl cursor-pointer icon sm:hidden">
           <GiHamburgerMenu onClick={() => setShow(!show)} />
         </div>
       </div>
