@@ -20,7 +20,7 @@ const MyApplication = () => {
     try {
       if (user && user.role === "Employer") {
         axios
-          .get("https://devjobs-backend-e11d.onrender.com//api/v1/application/employer/getall", {
+          .get("https://devjobs-backend-e11d.onrender.com/api/v1/application/employer/getall", {
             withCredentials: true,
           })
           .then((res) => {
@@ -28,7 +28,7 @@ const MyApplication = () => {
           });
       } else {
         axios
-          .get("https://devjobs-backend-e11d.onrender.com//api/v1/application/jobseeker/getall", {
+          .get("https://devjobs-backend-e11d.onrender.com/api/v1/application/jobseeker/getall", {
             withCredentials: true,
           })
           .then((res) => {
