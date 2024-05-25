@@ -42,6 +42,10 @@ const Register = () => {
     }
   };
 
+   if (isAuthorized) {
+    navigate("/");
+  }
+
   return (
     <div>
       <section className="authPage">
