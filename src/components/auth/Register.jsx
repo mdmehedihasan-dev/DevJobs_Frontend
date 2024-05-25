@@ -6,7 +6,7 @@ import { FaPencilAlt, FaRegUser } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaPhoneFlip } from "react-icons/fa6";
 import { RiLock2Fill } from "react-icons/ri";
-import { Link } from "react-router-dom";
+import { Link,Navigate } from "react-router-dom";
 
 const Register = () => {
   const [email, setEmail] = useState("");
@@ -43,8 +43,9 @@ const Register = () => {
   };
 
    if (isAuthorized) {
-    navigate("/");
-  }
+         return <Navigate to={'/'}/>
+
+   }
 
   return (
     <div>
