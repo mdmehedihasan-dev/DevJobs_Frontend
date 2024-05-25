@@ -57,7 +57,7 @@ const NavBar = () => {
           {user && user.role === "Employer" ? (
             <div className="space-x-5">
               <Link
-                className="text-black lg:text-white"
+                className="text-white"
                 to={"/job/post"}
                 onClick={() => setShow(false)}
               >
@@ -65,7 +65,7 @@ const NavBar = () => {
               </Link>
 
               <Link
-                className="text-black lg:text-white"
+                className="text-white"
                 to={"/job/me"}
                 onClick={() => setShow(false)}
               >
