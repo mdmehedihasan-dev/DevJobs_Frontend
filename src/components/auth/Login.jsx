@@ -5,11 +5,10 @@ import { FaRegUser } from "react-icons/fa";
 // import { FaPhoneFlip } from "react-icons/fa6"
 import { MdOutlineMailOutline } from "react-icons/md";
 import { RiLock2Fill } from "react-icons/ri";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 import { Context } from "../../main";
 
 const Login = () => {
-  const navigate = useNavigate();
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
   const [role, setRole] = useState();
@@ -45,7 +44,8 @@ const Login = () => {
   };
 
   if (isAuthorized) {
-    navigate("/");
+        return <Navigate to={'/'}/>
+
   }
 
   return (
