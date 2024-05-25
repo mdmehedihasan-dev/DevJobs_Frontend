@@ -23,7 +23,7 @@ const Login = () => {
           email,
           password,
           role,
-          isAuthorized,
+          
         },
         {
           headers: {
