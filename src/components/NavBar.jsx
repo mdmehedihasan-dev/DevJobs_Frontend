@@ -13,7 +13,7 @@ const NavBar = () => {
   const handleLogout = async () => {
     try {
       const response = await axios.get(
-        "https://devjobs-backend-e11d.onrender.com//api/v1/user/logout",
+        "https://devjobs-backend-e11d.onrender.com/api/v1/user/logout",
         { withCredentials: true }
       );
       toast.success(response.data.message);

@@ -10,7 +10,7 @@ const JobDetails = () => {
   const { isAuthorized, user } = useContext(Context);
 
   useEffect(()=>{
-    axios.get(`https://devjobs-backend-e11d.onrender.com//api/v1/job/${id}`,{
+    axios.get(`https://devjobs-backend-e11d.onrender.com/api/v1/job/${id}`,{
       withCredentials:true
     }).then((res)=>{
       setJob(res.data.job)

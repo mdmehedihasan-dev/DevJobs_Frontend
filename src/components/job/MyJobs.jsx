@@ -45,7 +45,7 @@ const MyJobs = () => {
   // for update job 
   const handleUpdateJob = async(jobId)=>{
     const updateJob = myJobs.find((job)=>job._id === jobId)
-    await axios.put(`https://devjobs-backend-e11d.onrender.com//api/v1/job/update/${jobId}`,updateJob,{
+    await axios.put(`https://devjobs-backend-e11d.onrender.com/api/v1/job/update/${jobId}`,updateJob,{
       withCredentials:true
     }).then((res)=>{
       toast.success(res.data.message)

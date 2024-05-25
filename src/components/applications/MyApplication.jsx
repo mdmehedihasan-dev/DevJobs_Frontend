@@ -47,7 +47,7 @@ const MyApplication = () => {
   const deleteApplication = (id) => {
     try {
       axios
-        .delete(`https://devjobs-backend-e11d.onrender.com//api/v1/application/delete/${id}`, {
+        .delete(`https://devjobs-backend-e11d.onrender.com/api/v1/application/delete/${id}`, {
           withCredentials: true,
         })
         .then((res) => {
