@@ -485,7 +485,7 @@ p {
 
 .howitworks .container .banner .card p:last-child {
   font-size: 14px;
-  color: gray;
+  color: black;
 }
 
 @media (max-width: 1320px) {
